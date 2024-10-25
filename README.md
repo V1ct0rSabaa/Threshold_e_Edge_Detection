@@ -1,6 +1,9 @@
 ## Explicação técnica resumida
-1. Threshold
-2. Canny's edge detection
+1. Threshold ou Limiarização é uma técnica de preprocessamento no qual consiste em segmentar os elementos de uma imagem, determinando seus pontos de corte(threshold) pela frequência. Por exemplo se queremos segmentar um disco especifico na foto de uma pilha de discos, o algoritmo vai alterar a cor dos discos para branco e preto, respectivamente se estão abaixo ou acima do ponto.
+Link: https://youtu.be/1lkOTltVsQ8?si=rh8Ji93_-pju3LYZ
+3. Canny's edge detection - Pode ser interpretado como uma versão mais precisa da Limiarização, antes de definir as áreas dos seguimentos, devemos utilizar o filtro Gaussiano para retirar os ruídos, calcular o desvio padrão dos gradientes de intensidade
+Link: https://youtu.be/OsKz8YJ2jqE?si=QDZYDR5rnVAEpOqm
+
 ## Tecnologias utilizadas
 - Python: Linguagem de programação popular na computação científica
 - OpenCV: Biblioteca para processamento de imagens.
