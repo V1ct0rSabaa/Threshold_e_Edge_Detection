@@ -7,7 +7,7 @@ Link: https://youtu.be/OsKz8YJ2jqE?si=QDZYDR5rnVAEpOqm
 ## Tecnologias utilizadas
 - Python: Linguagem de programação popular na computação científica
 - OpenCV: Biblioteca para processamento de imagens.
-- NumPy: Biblioteca para operações numéricas, OPICIONAL
+- NumPy: Biblioteca para operações numéricas, OPCIONAL pois foi utilizado somente em uma linha de código, podendo substituir por valores constantes caso desejado
 - Matplotlib: Biblioteca para visualização das imagens
 ### Versionamento
 obs: utilize o arquivo "requerimentos.txt" para facilitar a instalização das depedências
